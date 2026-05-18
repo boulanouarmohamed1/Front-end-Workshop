@@ -18,6 +18,24 @@ This workshop covers core React ideas at a beginner level:
 - Simple interactive UIs (counter, todo-style examples)
 - Basic routing with **React Router**
 
+## Project structure
+
+```
+src/
+├── PropsExample.jsx           # Passing data via props
+├── CounterExample.jsx         # useState with a number
+├── UseStateArrayExample.jsx   # useState with arrays
+├── ClickEventsExample.jsx     # Handling click events
+├── HandlingInputChanges.jsx   # Controlled inputs
+├── ConditionalRendering.jsx   # Show/hide UI with conditions
+├── UseEffectCounter.jsx       # useEffect basics
+├── FetchData.jsx              # Data fetching example
+├── InteractiveComponent.jsx   # Small interactive UI
+├── InteractiveTodo.jsx        # Todo-style list example
+├── main.jsx                   # App entry & routing setup
+└── App.css                    # Shared styles
+```
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (LTS recommended, v18+)
