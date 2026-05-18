@@ -1,16 +1,33 @@
-# React + Vite
+# Front-end Workshop — Introduction to React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Educational project only.**  
+> This repository is meant for teaching. It is **not** a production app, a starter template for real products, or maintained as a framework. Use it to explore React basics in a workshop or classroom setting.
 
-Currently, two official plugins are available:
+A hands-on **introduction to React** built with [Vite](https://vitejs.dev/). Each file in `src/` is a small, focused example you can run, read, and experiment with.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What you'll learn
 
-## Expanding the ESLint configuration
+This workshop covers core React ideas at a beginner level:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# React-Workshop
-# React-Workshop
-# React-Workshop
-# React-Workshop
+- Components and **props**
+- **State** with `useState` (numbers, arrays, forms)
+- **Events** (clicks, controlled inputs)
+- **Conditional rendering**
+- **`useEffect`** (side effects)
+- **Fetching data** from an API
+- Simple interactive UIs (counter, todo-style examples)
+- Basic routing with **React Router**
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (LTS recommended, v18+)
+- npm (comes with Node.js)
+- Basic HTML, CSS, and JavaScript
+
+## Getting started
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/boulanouarmohamed1/Front-end-Workshop.git
+   cd Front-end-Workshop
